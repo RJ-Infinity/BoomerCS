@@ -29,6 +29,8 @@ namespace BoomerCS
             using (Graphics g = Graphics.FromImage(BaseScreen))
             { g.CopyFromScreen(Left, Top, 0, 0, BaseScreen.Size); }
             base.OnLoad(e);
+
+            Focus();
         }
 
         private float? oldZoom;
