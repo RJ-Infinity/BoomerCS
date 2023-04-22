@@ -31,6 +31,7 @@ namespace BoomerCS
             base.OnLoad(e);
 
             Focus();
+            TopMost = true;
         }
 
         private float? oldZoom;
