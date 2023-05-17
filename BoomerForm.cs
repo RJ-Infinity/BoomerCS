@@ -32,6 +32,7 @@ namespace BoomerCS
 
             Focus();
             TopMost = true;
+            Activate();
         }
 
         private float? oldZoom;
