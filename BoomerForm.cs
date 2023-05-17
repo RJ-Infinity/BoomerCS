@@ -132,7 +132,6 @@ namespace BoomerCS
                 { Zoom *= e.Delta>0?1.1f:0.9f; } // repeat for each mouse wheel click
             }
             if (HoodRadius < 0) { HoodRadius = 0; }
-            if (Zoom < 1) { Zoom = 1; }
             if (FollowMouse)
             { MouseLocation = e.Location; }
             else
